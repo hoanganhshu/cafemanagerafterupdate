@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbartheodoidonhang"
+        app:title="Theo dõi đơn hàng"
+        app:titleTextColor="#8B4513"
+        android:background="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listviewtheodoidonhang"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+
+        >
+
+
+    <ToggleButton
+        android:id="@+id/toggle1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/img_52"
+        android:checked="true"/>
+
+    <View
+        android:layout_marginLeft="15dp"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:id="@+id/view1"
+        android:background="@android:color/holo_green_light" />
+
+    <ToggleButton
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        android:id="@+id/toggle2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/img_52" />
+
+    <View
+        android:layout_marginLeft="15dp"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:id="@+id/view2"
+        android:background="@android:color/black" />
+
+    <ToggleButton
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        android:id="@+id/toggle3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/img_52" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Quán nhận được hàng"
+            android:paddingLeft="20dp"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Chuẩn bị đơn hàng"
+            android:paddingLeft="20dp"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Đơn hàng của bạn đã hoàn tất , chúng tôi sẽ giao hàng ngay cho bạn"
+            android:paddingLeft="20dp"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:text="Nhận đơn hàng"
+        android:background="#6B4F3B"
+        android:textColor="@color/white"
+        android:id="@+id/buttonnhandonhang"
+        >
+        
+
+    </Button>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:id="@+id/textviewnhandonhang"
+        android:text="Vui lòng kiểm tra lại đơn hàng khi nhận"
+        />
+
+</LinearLayout>
+

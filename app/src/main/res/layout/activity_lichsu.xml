@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Fragment.Lichsu_activity">
+   <androidx.appcompat.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:id="@+id/toolbarlichsu"
+       app:title="Lịch sử"
+       app:titleTextColor="#8B4513"
+       android:background="@color/white"
+       />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+      android:orientation="horizontal"
+       android:background="@drawable/border"
+      >
+      <Button
+          android:layout_width="102.5dp"
+          android:layout_height="match_parent"
+         android:id="@+id/choxacnhan"
+          android:text="Chờ xác nhận"
+          android:textSize="10dp"
+          android:background="#8B4513"
+          android:textColor="@color/white"
+         />
+      <Button
+          android:layout_width="102.5dp"
+          android:layout_height="match_parent"
+          android:id="@+id/danggiao"
+          android:text="Đang giao"
+          android:textSize="10dp"
+          android:background="#8B4513"
+          android:textColor="@color/white"
+          />
+      <Button
+          android:layout_width="102.5dp"
+          android:layout_height="match_parent"
+          android:id="@+id/hoanthanh"
+          android:text="Hoàn thành"
+          android:textSize="10dp"
+          android:background="#8B4513"
+          android:textColor="@color/white"
+          />
+      <Button
+          android:layout_width="102.5dp"
+          android:layout_height="match_parent"
+          android:id="@+id/dahuy"
+          android:text="Đã hủy"
+          android:textSize="10dp"
+          android:background="#8B4513"
+          android:textColor="@color/white"
+          />
+
+
+   </LinearLayout>
+
+
+   <ListView
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:id="@+id/listviewlichsu"
+      />
+
+</LinearLayout>

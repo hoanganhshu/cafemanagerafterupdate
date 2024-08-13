@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.handlelogin.CreatAccountActivity">
+
+    <ImageView
+        android:id="@+id/logocreat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/titlecreat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shopfee"
+        android:textSize="32sp"
+        android:textColor="#6B4F3B"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/taglinecreat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let us make your day!"
+        android:textSize="16sp"
+        android:textColor="#6B4F3B"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/emailcreat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập email của bạn"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordcreat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu của bạn"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttoncreat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Kí"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#C0C0C0"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <TextView
+        android:id="@+id/logincreataccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã có tài khoản? Đăng Nhập"
+        android:textColor="#6B4F3B"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+
+
+</LinearLayout>

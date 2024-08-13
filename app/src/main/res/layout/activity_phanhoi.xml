@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Fragment.phanhoi_activity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbarphanhoi"
+        app:title="Phản hồi"
+        app:titleTextColor="#8B4513"
+        android:background="@color/white"
+        />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:textStyle="bold"
+       android:textSize="20dp"
+       android:text="Họ và tên :"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       />
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:id="@+id/hotenphanhoi"
+        android:background="@drawable/rounder_editext"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Số điện thoại :"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:id="@+id/sdtphanhoi"
+        android:background="@drawable/rounder_editext"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Email :"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounder_editext"
+        android:id="@+id/emailphanhoi"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Phản hồi :"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:background="@drawable/rounder_editext"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="120dp"
+        android:id="@+id/noidungphanhoi"
+        />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonphanhoi"
+        android:layout_marginTop="30dp"
+        android:text="Gửi phản hồi"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

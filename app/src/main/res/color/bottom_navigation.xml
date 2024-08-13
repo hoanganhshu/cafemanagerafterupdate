@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- Màu sắc của item khi được chọn -->
+        <item android:color="#6B4F3B" android:state_checked="true"/>
+        <!-- Màu sắc của item khi không được chọn, với độ mờ -->
+        <item android:color="#6B4F3B" android:alpha="0.6"/>
+
+</selector>

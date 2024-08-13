@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Fragment.Danhgiadonhang"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbardanhgia"
+        app:title="Đánh giá sản phẩm"
+        app:titleTextColor="#8B4513"
+        android:background="@color/white"
+        />
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/img_16"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textSize="17dp"
+        android:text="Đánh giá đơn hàng này"
+        android:paddingLeft="30dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Xếp hạng :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <RatingBar
+        android:isIndicator="false"
+    android:clickable="true"
+    android:focusable="true"
+        android:layout_gravity="center"
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:numStars="5"
+        android:stepSize="0.7"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:theme="@style/Widget.AppCompat.RatingBar.Indicator"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Đánh giá :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/danhgiasp"
+        android:hint="Hãy cho chúng tôi biết đánh giá của bạn"
+        />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:text="Đánh giá sẽ được hiển thị công khai"
+        />
+    <Button
+        android:id="@+id/guiphanhoi"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#6B4F3B"
+        android:textColor="@color/white"
+        android:text="Gửi phản hồi"
+        android:textSize="15dp"
+
+        />
+
+
+
+</LinearLayout>
